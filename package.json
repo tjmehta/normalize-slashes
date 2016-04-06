@@ -1,0 +1,39 @@
+{
+  "name": "normalize-slashes",
+  "version": "0.0.0",
+  "description": "Normalize paths to by adding or removing beginning and/or end slashes",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha ./test && istanbul --text check-coverage --statements 100 --functions 100 --branches 100 --lines 100",
+    "test-watch": "nodemon -x mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjmehta/normalize-slashes.git"
+  },
+  "keywords": [
+    "remove",
+    "end",
+    "beginning",
+    "slash",
+    "slashes",
+    "normalize",
+    "dots",
+    "double"
+  ],
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/normalize-slashes/issues"
+  },
+  "homepage": "https://github.com/tjmehta/normalize-slashes",
+  "dependencies": {
+    "101": "^1.5.0",
+    "assert-args": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5"
+  }
+}
