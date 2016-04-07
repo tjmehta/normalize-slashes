@@ -1,4 +1,4 @@
-# normalize-slashes
+# normalize-slashes [![Build Status](https://travis-ci.org/tjmehta/normalize-slashes.svg)](https://travis-ci.org/tjmehta/normalize-slashes) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 Normalize paths to by adding or removing beginning and/or end slashes.
 Also, deduplicates extra slashes to a single slash and resolves `..` and `.`.
 
